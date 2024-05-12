@@ -9,22 +9,31 @@
 
     <TextView
         android:id="@+id/notesHeading"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="357dp"
+        android:layout_height="57dp"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="16dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="21dp"
+        android:background="@color/orange"
         android:fontFamily="@font/poppins_light"
         android:text="Add New To Do"
-        android:layout_marginStart="18dp"
         android:textColor="@color/black"
-        android:textSize="24sp"
-        />
+        android:textSize="24sp" />
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/notesRecyclerView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="50dp"
-        android:padding="16dp"/>
+        android:layout_width="319dp"
+        android:layout_height="459dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="181dp"
+        android:padding="16dp" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/addButton"
@@ -34,8 +43,8 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="89dp"
         android:backgroundTint="@color/orange"
         app:srcCompat="@drawable/baseline_add_24"
         app:tint="@color/white" />
